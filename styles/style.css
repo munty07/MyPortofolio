@@ -8,7 +8,7 @@
 /*declare variable*/
 :root {
   --color-primary: #191d2b;
-  --color-secondary: #b56796;
+  --color-secondary: #c787c1;
   --color-white: #FFFFFF;
   --color-black: #000;
   --color-grey-0: #f8f8f8;
@@ -89,6 +89,13 @@ section {
   justify-content: center;
   transform: translateY(-50%);
 }
+.controlls .active-btn {
+  background-color: var(--color-secondary) !important;
+  transition: all 0.4s ease-in-out;
+}
+.controlls .active-btn i {
+  background-color: var(--color-white) !important;
+}
 .controlls .control {
   padding: 1rem;
   cursor: pointer;
@@ -101,4 +108,9 @@ section {
   justify-content: center;
   margin: 0.7rem 0; /* 0 - left & right*/
   box-shadow: var(--box-shadow-1);
+}
+.controlls .control i {
+  font-size: 1.2rem;
+  color: var(--color-grey-2);
+  pointer-events: none;
 }/*# sourceMappingURL=style.css.map */
