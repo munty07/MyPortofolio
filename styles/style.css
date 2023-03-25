@@ -438,6 +438,10 @@ section {
 .contact-content-con .left-contact {
   flex: 2;
 }
+.contact-content-con .right-contact {
+  flex: 3;
+}
+
 /*Independed components*/
 .btn-con {
   display: flex;
