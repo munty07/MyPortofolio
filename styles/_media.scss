@@ -28,7 +28,7 @@
         padding: 0;
     }
     header .right-header{
-        padding: 2rem !important;
+        padding: 0 !important;//2rem !important;
     }
     .header-content{
         grid-template-columns: 1fr;
@@ -82,6 +82,28 @@
         padding-bottom: 6rem;
     }
     
+    
+    .main-title{
+        h2{
+            font-size: 2rem;
+            span{
+                font-size: 2.5rem;
+            }
+            .bg-text{
+                font-size: 3rem;
+            }
+        }
+    }  
+}
+
+
+@media screen and (max-width: 1432px){
+    header{
+        padding: 0 !important;
+    }
+    .section{
+        padding: 7rem 11rem;
+    }
     /*contact section*/
     .contact-content-con{
         flex-direction: column;
@@ -97,16 +119,5 @@
         margin-left: 0 !important;
         margin-top: 1.5rem;
     }
-    .main-title{
-        h2{
-            font-size: 2rem;
-            span{
-                font-size: 2.5rem;
-            }
-            .bg-text{
-                font-size: 3rem;
-            }
-        }
-    }
-    
 }
+
