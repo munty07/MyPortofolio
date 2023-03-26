@@ -1,5 +1,29 @@
 
 @media screen and (max-width: 600px){
+    .section{
+        padding: 2rem 2.5rem !important;
+    }
+
+    .theme-btn{
+        width: 50px;
+        height: 50px;
+    }
+
+    .controlls{
+        top: auto;
+        bottom: 0;
+        flex-direction: row;
+        justify-content: center;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 100%;
+        background-color: var(--color-grey-5);
+        .control{
+            margin: 1rem .3rem;
+        }
+    }
+
+    /*header section*/
     header{
         padding: 0;
     }
@@ -28,6 +52,7 @@
         width: 90%;
     }
 
+    /*about section*/
     .about-container{
         grid-template-columns: 1fr;
         .right-about{
@@ -50,28 +75,13 @@
             grid-template-columns: 1fr;
         }
     }
-
-    .section{
-        padding: 2rem 2.5rem !important;
+    
+    /*portofolios section*/
+    .portofolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
     }
+    
 
-
-    .theme-btn{
-        width: 50px;
-        height: 50px;
-    }
-
-    .controlls{
-        top: auto;
-        bottom: 0;
-        flex-direction: row;
-        justify-content: center;
-        left: 50%;
-        transform: translateX(-50%);
-        width: 100%;
-        background-color: var(--color-grey-5);
-        .control{
-            margin: 1rem .3rem;
-        }
-    }
+    
 }
