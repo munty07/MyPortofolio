@@ -121,3 +121,28 @@
     }
 }
 
+
+@media screen and (max-width: 1070px){
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            padding-top: 2.5rem;
+        }
+    }
+
+    .portofolios{
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .main-title{
+        h2{
+            font-size: 4rem;
+            span{
+                font-size: 4rem;
+            }
+            .bg-text{
+                font-size: 4.5rem;
+            }
+        }
+    }
+}
