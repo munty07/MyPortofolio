@@ -6,6 +6,28 @@
     header .right-header{
         padding: 2rem !important;
     }
+    .header-content{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+    .left-header{
+        .h-shape{
+            display: none;
+        }
+    }
+    .right-header{
+        grid-row: 1;
+        width: 90%;
+        margin: 0 auto;
+        .name{
+            font-size: 2.5rem !important;
+        }
+    }
+    .header-contant .left-header .image{
+        margin: 0 auto;
+        width: 90%;
+    }
+
 
     .theme-btn{
         width: 50px;
