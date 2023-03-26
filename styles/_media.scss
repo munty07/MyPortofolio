@@ -27,11 +27,6 @@
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
     }
-    .about-stats{
-        .progress-bars{
-            grid-template-columns: 1fr;
-        }
-    }
     
     /*portofolios section*/
     .portofolios{
@@ -152,5 +147,28 @@
             margin: 1rem .3rem;
         }
     }
+}
 
+@media screen and (max-width: 700px){
+    .section{
+        padding: 7rem 3rem;
+    }
+
+    .about-stats{
+        .progress-bars{
+            grid-template-columns: 1fr;
+        }
+    }
+
+    .main-title{
+        h2{
+            font-size: 3rem;
+            span{
+                font-size: 3rem;
+            }
+            .bg-text{
+                font-size: 4rem;
+            }
+        }
+    }
 }
